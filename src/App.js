@@ -7,6 +7,8 @@ import Login from './Login';
 import { BrowserRouter as Router,Switch,Route} from "react-router-dom"
 import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
 function App() {
 
@@ -48,6 +50,7 @@ function App() {
           <Route path="/login">
             <Login/>
           </Route>
+          
           <Route path="/">
           <Header/>
               <Home/>

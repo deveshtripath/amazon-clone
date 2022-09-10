@@ -2,7 +2,7 @@ import firebase from "firebase";
 
 
 
-const firebaseApp=firebase.initializeApp({
+const firebaseApp = firebase.initializeApp({
 
     apiKey: "AIzaSyBoPkHwc0pbSbRU--hznxEUNZUt1fl6tdY",
     authDomain: "clone-44223.firebaseapp.com",
@@ -29,7 +29,7 @@ export { auth };
 // import firebase from "firebase";
 
 // const firebaseConfig = {
-//      apiKey: "AIzaSyBoPkHwc0pbSbRU--hznxEUNZUt1fl6tdY",
+//     apiKey: "AIzaSyBoPkHwc0pbSbRU--hznxEUNZUt1fl6tdY",
 //     authDomain: "clone-44223.firebaseapp.com",
 //     projectId: "clone-44223",
 //     storageBucket: "clone-44223.appspot.com",
